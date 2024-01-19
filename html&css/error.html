@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ERROR</title>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width-device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" href="style.css"/>
+        <style>
+            .background{
+    background-color: rgb(21, 2, 92);
+}
+
+.container-su{
+    text-align: center;
+    width: 600px;
+    height: auto;
+    min-height: 400px;
+    background-color:rgb(178, 120, 231);
+    align-items: center;
+    padding: 20px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    /*for corners*/
+    border-radius: 5px 30px 5px 30px;
+    box-shadow: 15px 15px;
+}
+
+.container-si{
+    text-align: center;
+    width: 600px;
+    height: auto;
+    min-height: 475px;
+    background-color:rgb(178, 120, 231);
+    align-items: center;
+    padding: 20px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    /*for corners*/
+    border-radius: 5px 30px 5px 30px;
+    box-shadow: 15px 15px;
+}
+
+.input{
+    width: 550px;
+    height: 25px;
+}
+
+.form-su{
+    padding: 5px;
+}
+
+.label-su{
+    font-size: 30px;
+}
+
+.button-register-div{
+    left: 50%;
+    transform: translate(-50%,0%);
+    position: absolute;
+}
+
+#button-register{
+    height: 50px;
+    width: 100px;
+    font-size: larger;
+    background-color: rgb(127, 127, 218);
+    box-shadow: 3px 3px;
+    border-radius: 10px;
+}
+
+#button-register:hover{
+    background-color: rgb(68, 68, 156);
+    cursor: pointer;
+}
+
+#to-signin{
+    color: blue;
+    font-size: larger;
+}
+
+.txt-msg{
+    font-size: 100px;
+}
+
+.txt-dis{
+    font-size: larger;
+}
+
+.reattempt{
+    color: black;
+}
+        </style>
+    </head>
+    <body class="background">
+        <section class="su">
+        <div class="container-su">
+            <p class="txt-msg">ERROR</p><br/>
+            <p class="txt-dis">The attempt was unsuccessful.</p>
+            <a href="/signup" class="reattempt">Click to reattempt</a>
+        </div>
+        </section>
+    </body>
+</html>
